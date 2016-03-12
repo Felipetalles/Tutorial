@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/fundo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.felip_000.rotaplayer.MainActivity"
+    android:paddingLeft="10px"
+    android:paddingRight="10px">
+
+<ImageView
+    android:src="@drawable/logorota"
+    android:layout_width="match_parent"
+    android:layout_height="590px"
+    android:paddingTop="90px"
+    android:paddingLeft="60px"
+    android:paddingRight="60px"
+    />
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="100px"
+                     android:layout_marginLeft="60px"
+                     android:layout_marginRight="60px"
+                     android:layout_marginBottom="30px"
+                     android:paddingLeft="40px"
+                  android:background="#5dfefefe">
+
+
+
+                  <ImageView
+                      android:src="@drawable/usuario"
+                      android:layout_width="60px"
+                      android:layout_height="match_parent"
+                      />
+
+                  <EditText
+                       android:text="Seu login"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="20px"
+                      android:layout_marginRight="40px"
+                       android:textColor="#ffffff"
+                       android:textSize="40px"
+                       android:layout_gravity="center_vertical"/>
+
+                   </LinearLayout>
+
+                <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="100px"
+                       android:layout_marginLeft="60px"
+                       android:layout_marginRight="60px"
+                       android:layout_marginBottom="50px"
+                       android:paddingLeft="40px"
+                       android:background="#5dfefefe">
+
+
+
+                  <ImageView
+                        android:src="@drawable/chave"
+                        android:layout_width="70px"
+                        android:layout_height="match_parent" />
+
+                 <EditText
+                        android:text="Sua senha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="40px"
+                        android:textColor="#ffffff"
+                        android:textSize="40px"
+                     android:layout_gravity="center_vertical"
+                     android:autoText="false"
+                     android:allowUndo="false"
+                     android:editable="true"
+                     android:visibility="visible"
+                     android:textColorLink="#ffffff"
+                     android:textColorHint="#9b0000"
+                     android:textColorHighlight="#7c0000" />
+
+                  </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginRight="60px"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:src="@drawable/entrar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="72px"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:src="@drawable/cadastrar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="72px"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+    <TextView
+        android:text="Esqueceu sua senha?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c1ffffff"
+        android:textSize="40px"
+        android:gravity="center"
+        android:paddingTop="46px" />
+
+    <TextView
+        android:text="termos de uso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c1ffffff"
+        android:textSize="40px"
+        android:gravity="center"
+        android:paddingTop="8px" />
+
+             </LinearLayout>
